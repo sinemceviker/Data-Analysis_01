@@ -1,8 +1,8 @@
-#Data Imputation and Classification Performance
+# Data Imputation and Classification Performance
 Project Overview
 This project focuses on the process of imputing missing values in a dataset and evaluating the performance of a classification model after the data has been processed. The dataset used is the Pima Indians Diabetes Database which contains medical data for predicting the presence of diabetes in individuals. Various imputation techniques such as mean, median, mode, and K-Nearest Neighbors (KNN) are applied to handle missing values, followed by the training and evaluation of a classification model.
 
-Key Steps
+# Key Steps
 1. Data Preprocessing
 The first step involves inspecting the dataset and analyzing missing values. Initially, the dataset contains no missing values, but simulation is applied to introduce missing data. This process helps in evaluating the performance of different imputation methods.
 
@@ -26,7 +26,7 @@ Accuracy: The overall accuracy of the classification model.
 6. Final Outcome
 After evaluating the performance of the classification model, the accuracy was found to be 99.87%, indicating that the imputation techniques, especially KNN, effectively handled the missing values and did not significantly impact the model’s predictive power.
 
-Project Files
+# Project Files
 data_analysis.py: Python script containing the data preprocessing, missing data analysis, imputation techniques, and model evaluation.
 diabetes_data.csv: The dataset used for the analysis, containing medical data for predicting diabetes.
 README.md: This file, explaining the details of the project.
@@ -48,7 +48,7 @@ Run the data_analysis.py script to perform the analysis and evaluate the model.
 bash
 
 python data_analysis.py
-Results
+# Results
 Confusion Matrix:
 
 
